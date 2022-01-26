@@ -48,6 +48,7 @@ export const createFlashMessage = (
   };
 };
 
+// TODO: Remove banner on navigate.
 export const removeFlashMessage =
   (): ReducerPayload<FlashActionTypes.RemoveFlashMessage> => ({
     type: FlashActionTypes.RemoveFlashMessage
